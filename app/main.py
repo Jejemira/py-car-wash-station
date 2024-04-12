@@ -1,5 +1,5 @@
 class Car:
-    def init(
+    def __init__(
             self,
             comfort_class : int,
             clean_mark : int,
@@ -11,7 +11,7 @@ class Car:
 
 
 class CarWashStation:
-    def init(
+    def __init__(
             self,
             distance_from_city_center : float,
             clean_power : int,
